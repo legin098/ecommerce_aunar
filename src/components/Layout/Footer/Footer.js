@@ -31,7 +31,7 @@ export function Footer() {
         </div>
 
         <div className={styles.Copyright}>
-          <span>Copyright © 2023 Gaming - All rights reserved</span>
+          <span>Copyright © 2023 Jesus Cruz - All rights reserved</span>
         </div>
       </Container>
     </div>
