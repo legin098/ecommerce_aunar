@@ -32,7 +32,7 @@ export default function HomePage() {
 
         <Container>
           <Home.LatestGames
-            title="PlayStation"
+            //title="PlayStation"
             limit={3}
             platformId={platformsId.playstation}
           />
@@ -52,7 +52,7 @@ export default function HomePage() {
 
         <Container>
           <Home.LatestGames
-            title="Xbox"
+            //title="Xbox"
             limit={3}
             platformId={platformsId.xbox}
           />

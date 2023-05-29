@@ -22,6 +22,8 @@ export function Panel(props) {
     }, 500);
   };
 
+  const URL = `https://api.whatsapp.com/send?phone=+573202349051&text=Hola,%20buen%20día.%0AQuisiera%20saber%20más%20información%20sobre%20el%20producto:%20${game.title}%0AMuchas%20gracias.`
+
   return (
     <Container className={styles.panel}>
       <div className={styles.imgContiner}>
@@ -58,7 +60,7 @@ export function Panel(props) {
             <span className={styles.price}>{buyPrice} COP</span>
           </div>
 
-          <Button primary fluid onClick={addCartWrapper} loading={loading}>
+          <Button as="a" href={URL} target="_blank" primary fluid>
             Comprar ahora
           </Button>
 
