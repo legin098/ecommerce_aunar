@@ -20,7 +20,7 @@ export function TopBar(props) {
       </div>
 
       <div className={styles.right}>
-        <Account />
+        {/* <Account /> */}
       </div>
     </div>
   );
